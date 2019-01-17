@@ -1,0 +1,11 @@
+@mixin border-radius($property){
+	-ms-border-radius:$property;
+	-webkit-border-radius:$property;
+	border-radius:$property;
+}
+
+@mixin transform($property){
+	-ms-transform:$property;
+	-webkit-transform:$property;
+	transform:$property;
+}

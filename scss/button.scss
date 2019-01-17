@@ -1,0 +1,23 @@
+.btn1{
+	color:$light-text-color;
+	background:$dark-background-color;
+	display:inline-block;
+	padding:12px 22px;
+	position:relative;
+	top:0;
+	
+	&:hover{
+		background-color:$light-background-color;
+		color:$dark-background-color;
+		transition:background-color 0.5s ease;
+		top:-10px;
+	}
+
+	&:focus{
+		background-color:$light-background-color;
+		color:$dark-background-color;
+		
+		top:-10px;
+	}
+
+}

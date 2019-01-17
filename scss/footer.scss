@@ -1,0 +1,22 @@
+footer{
+	display:flex;
+	flex-direction:row;
+	background:$dark-background-color;
+	color:$light-text-color;
+	column-count:3;
+
+	h4{
+		color:$light-text-color;
+		position:relative;
+
+		&:after{
+			border-bottom:1px solid #ccc;
+			content:"";
+			display:inline-block;
+			position:absolute;
+		}
+	}
+
+
+}
+

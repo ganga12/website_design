@@ -1,0 +1,58 @@
+$light-text-color:#fff;
+$semi-dark-text-color:#cfcfcf;
+$dark-text-color:#333;
+
+$light-background-color:#fff;
+$medium-background-color:rgba(0,0,0,.05);
+$semi-dark-background-color:#cfcfcf;
+$dark-background-color:#333;
+$extra-dark-background-color:#000;
+
+$text-uppercase:uppercase;
+$text-capitalize:capitalize;
+$text-lowercase:lowercase;
+
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: 1%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:15px;
+        padding-bottom:15px !important;        
+        width: 100%;
+        transition: all 0.3s ease-in;
+    }
+    .navbar-collapse.collapsing {
+        height: auto !important;
+        transition: all 0.2s ease;
+        left: 100%;
+    }
+    .navbar-collapse.show {
+        left: 0;
+        right:0;
+    }
+
+    .navbar .navbar-collapse.show{
+    	border-top: 2px solid #fff !important;
+    }
+
+    nav ul li a{
+    	margin-bottom:5px !important;
+    }
+}
+
+
+.navbar-toggler{
+	border:none !important;
+}
+
+.navbar{
+	border-bottom:2px solid #fff !important;
+}
+
+.navbar-toggler-icon{
+    cursor:pointer;
+}

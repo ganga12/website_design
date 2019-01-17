@@ -1,0 +1,14 @@
+.btn1{
+	color:$light-text-color;
+	@extend %dummy;
+	@include border-radius(5px);
+	@include transition(all 0.5s ease);
+	@extend %btn-style;
+
+	&:hover{
+		color:$dark-text-color;
+		background:$light-background-color;
+		@include transform(scale(1.07));
+
+	}
+}
